@@ -58,8 +58,8 @@ Projects published here are intended to be:
 ## Find Me
 
 * GitHub: [@GamerXD_GZ](https://github.com/gamerxdgz)
-* Discord: [Join the community](https://discord.gg/4BHUKrzXRf)
-* Website: Coming soon
+* Discord: [Join my community](https://discord.gg/4BHUKrzXRf)
+* Website: I'm still building/fixing it
 
 ---
 

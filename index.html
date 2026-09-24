@@ -2,390 +2,59 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
-
-    <meta
-        name="description"
-        content="GamerXD_GZ personal dashboard."
-    >
-
-    <meta
-        name="theme-color"
-        content="#0b0f19"
-    >
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GamerXD_GZ personal dashboard.">
+    <meta name="theme-color" content="#0b0f19">
     <title>GamerXD_GZ</title>
-
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+<div id="backgroundEffects" class="background-effects" aria-hidden="true"></div>
 <div class="app">
-
     <header class="topbar">
-
-        <a
-            class="logo"
-            href="https://github.com/gamerxdgz"
-            target="_blank"
-            rel="noopener noreferrer"
-        >
-            GamerXD_GZ
-        </a>
-
-        <button
-            id="settingsButton"
-            class="settings-button"
-            type="button"
-            aria-label="Open settings"
-        >
-            Settings
-        </button>
-
+        <a class="logo" href="https://github.com/gamerxdgz" target="_blank" rel="noopener noreferrer">GamerXD_GZ</a>
+        <button id="settingsButton" class="settings-button" type="button" aria-label="Open settings">Settings</button>
     </header>
-
-
     <main>
-
         <section class="welcome">
-
             <div>
-
-                <p class="eyebrow">
-                    DASHBOARD
-                </p>
-
-                <h1 id="greeting">
-                    Hello.
-                </h1>
-
-                <p class="welcome-text">
-                    Welcome to your GamerXD_GZ dashboard.
-                </p>
-
+                <p class="eyebrow">DASHBOARD</p>
+                <h1 id="greeting">Hello.</h1>
+                <p class="welcome-text">Welcome to your GamerXD_GZ dashboard.</p>
             </div>
-
             <div class="time-card">
-
-                <p class="card-label">
-                    LOCAL TIME
-                </p>
-
-                <div
-                    id="timeDisplay"
-                    class="time-display"
-                >
-                    --:--:--
-                </div>
-
-                <p
-                    id="dateDisplay"
-                    class="date-display"
-                >
-                    Loading date...
-                </p>
-
+                <p class="card-label">LOCAL TIME</p>
+                <div id="timeDisplay" class="time-display">--:--:--</div>
+                <p id="dateDisplay" class="date-display">Loading date...</p>
             </div>
-
         </section>
-
-
         <section class="grid">
-
-            <a
-                class="dashboard-card"
-                href="https://discord.gg/4BHUKrzXRf"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-
-                <div class="card-top">
-                    <span class="card-icon">D</span>
-                    <span class="card-arrow">↗</span>
-                </div>
-
-                <p class="card-label">
-                    DISCORD
-                </p>
-
-                <h2>
-                    GamerXD_GZ
-                </h2>
-
-                <p>
-                    The main community and development server.
-                </p>
-
-            </a>
-
-
-            <a
-                class="dashboard-card"
-                href="https://discord.gg/4BHUKrzXRf"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-
-                <div class="card-top">
-                    <span class="card-icon">S</span>
-                    <span class="card-arrow">↗</span>
-                </div>
-
-                <p class="card-label">
-                    MINECRAFT
-                </p>
-
-                <h2>
-                    GamerXD_GZ SMP
-                </h2>
-
-                <p>
-                    Server community, updates, and information.
-                </p>
-
-            </a>
-
-
-            <a
-                class="dashboard-card"
-                href="https://github.com/gamerxdgz"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-
-                <div class="card-top">
-                    <span class="card-icon">G</span>
-                    <span class="card-arrow">↗</span>
-                </div>
-
-                <p class="card-label">
-                    SOURCE
-                </p>
-
-                <h2>
-                    GitHub
-                </h2>
-
-                <p>
-                    Projects, experiments, and source code.
-                </p>
-
-            </a>
-
-
-            <a
-                class="dashboard-card"
-                href="https://github.com/gamerxdgz/gamerxdgz"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-
-                <div class="card-top">
-                    <span class="card-icon">R</span>
-                    <span class="card-arrow">↗</span>
-                </div>
-
-                <p class="card-label">
-                    REPOSITORY
-                </p>
-
-                <h2>
-                    GamerXD_GZ
-                </h2>
-
-                <p>
-                    The source code behind this dashboard.
-                </p>
-
-            </a>
-
+            <a class="dashboard-card" href="https://discord.gg/4BHUKrzXRf" target="_blank" rel="noopener noreferrer"><div class="card-top"><span class="card-icon">D</span><span class="card-arrow">↗</span></div><p class="card-label">DISCORD</p><h2>GamerXD_GZ</h2><p>The main community and development server.</p></a>
+            <a class="dashboard-card" href="https://discord.gg/4BHUKrzXRf" target="_blank" rel="noopener noreferrer"><div class="card-top"><span class="card-icon">S</span><span class="card-arrow">↗</span></div><p class="card-label">MINECRAFT</p><h2>GamerXD_GZ SMP</h2><p>Server community, updates, and information.</p></a>
+            <a class="dashboard-card" href="https://github.com/gamerxdgz" target="_blank" rel="noopener noreferrer"><div class="card-top"><span class="card-icon">G</span><span class="card-arrow">↗</span></div><p class="card-label">SOURCE</p><h2>GitHub</h2><p>Projects, experiments, and source code.</p></a>
+            <a class="dashboard-card" href="https://github.com/gamerxdgz/gamerxdgz" target="_blank" rel="noopener noreferrer"><div class="card-top"><span class="card-icon">R</span><span class="card-arrow">↗</span></div><p class="card-label">REPOSITORY</p><h2>GamerXD_GZ</h2><p>The source code behind this dashboard.</p></a>
         </section>
-
-
         <section class="information">
-
-            <div class="section-title">
-
-                <p class="eyebrow">
-                    QUICK INFO
-                </p>
-
-                <h2>
-                    Everything in one place.
-                </h2>
-
-            </div>
-
-            <div class="info-list">
-
-                <div class="info-row">
-                    <span>Platform</span>
-                    <strong>GitHub Pages</strong>
-                </div>
-
-                <div class="info-row">
-                    <span>Runtime</span>
-                    <strong>Static</strong>
-                </div>
-
-                <div class="info-row">
-                    <span>Dependencies</span>
-                    <strong>None</strong>
-                </div>
-
-                <div class="info-row">
-                    <span>Tracking</span>
-                    <strong>None</strong>
-                </div>
-
-            </div>
-
+            <div class="section-title"><p class="eyebrow">QUICK INFO</p><h2>Everything in one place.</h2></div>
+            <div class="info-list"><div class="info-row"><span>Platform</span><strong>GitHub Pages</strong></div><div class="info-row"><span>Runtime</span><strong>Static</strong></div><div class="info-row"><span>Dependencies</span><strong>None</strong></div><div class="info-row"><span>Tracking</span><strong>None</strong></div></div>
         </section>
-
     </main>
-
-
-    <footer>
-
-        <span>
-            GamerXD_GZ
-        </span>
-
-        <span>
-            Build • Create • Experiment
-        </span>
-
-    </footer>
-
+    <footer><span>GamerXD_GZ</span><span>Build • Create • Experiment</span></footer>
 </div>
-
-
-<div
-    id="settingsOverlay"
-    class="overlay hidden"
-    aria-hidden="true"
->
-
-    <section
-        class="settings-panel"
-        role="dialog"
-        aria-modal="true"
-        aria-labelledby="settingsTitle"
-    >
-
-        <div class="settings-header">
-
-            <div>
-
-                <p class="eyebrow">
-                    SETTINGS
-                </p>
-
-                <h2 id="settingsTitle">
-                    Dashboard settings
-                </h2>
-
-            </div>
-
-            <button
-                id="closeSettings"
-                class="close-button"
-                type="button"
-                aria-label="Close settings"
-            >
-                ×
-            </button>
-
-        </div>
-
-
-        <div class="setting">
-
-            <div>
-
-                <strong>
-                    Time display
-                </strong>
-
-                <p>
-                    Choose how the clock is displayed.
-                </p>
-
-            </div>
-
-            <select id="timeStyle">
-
-                <option value="digital">
-                    Digital
-                </option>
-
-                <option value="dialog">
-                    Dialogue
-                </option>
-
-            </select>
-
-        </div>
-
-
-        <div class="setting">
-
-            <div>
-
-                <strong>
-                    Time format
-                </strong>
-
-                <p>
-                    Choose between 12-hour and 24-hour time.
-                </p>
-
-            </div>
-
-            <select id="timeFormat">
-
-                <option value="12">
-                    12-hour
-                </option>
-
-                <option value="24">
-                    24-hour
-                </option>
-
-            </select>
-
-        </div>
-
-
-        <div class="settings-footer">
-
-            <button
-                id="resetSettings"
-                class="button secondary"
-                type="button"
-            >
-                Reset
-            </button>
-
-            <button
-                id="doneSettings"
-                class="button primary"
-                type="button"
-            >
-                Done
-            </button>
-
-        </div>
-
+<div id="settingsOverlay" class="overlay hidden" aria-hidden="true">
+    <section class="settings-panel" role="dialog" aria-modal="true" aria-labelledby="settingsTitle">
+        <div class="settings-header"><div><p class="eyebrow">SETTINGS</p><h2 id="settingsTitle">Dashboard settings</h2></div><button id="closeSettings" class="close-button" type="button" aria-label="Close settings">×</button></div>
+        <div class="setting"><div><strong>Theme</strong><p>Choose dark, light, or follow your device.</p></div><select id="theme" aria-label="Theme"><option value="dark">Dark</option><option value="light">Light</option><option value="system">System</option></select></div>
+        <div class="setting"><div><strong>Accent color</strong><p>Choose a preset or any accessible custom color.</p><div class="presets" aria-label="Accent presets"><button type="button" data-color="#6d96ff" aria-label="Blue" style="--swatch:#6d96ff"></button><button type="button" data-color="#a879ff" aria-label="Purple" style="--swatch:#a879ff"></button><button type="button" data-color="#35c8d8" aria-label="Cyan" style="--swatch:#35c8d8"></button><button type="button" data-color="#55c987" aria-label="Green" style="--swatch:#55c987"></button><button type="button" data-color="#f0a04b" aria-label="Orange" style="--swatch:#f0a04b"></button><button type="button" data-color="#ef6672" aria-label="Red" style="--swatch:#ef6672"></button></div></div><input id="accentColor" type="color" value="#6d96ff" aria-label="Custom accent color"></div>
+        <div class="setting"><div><strong>Background animation</strong><p>Use a subtle, CSS-only ambient background.</p></div><select id="backgroundAnimation" aria-label="Background animation"><option value="none">None</option><option value="stars">Stars</option><option value="moon">Moon</option><option value="sun">Sun</option><option value="day-night">Day &amp; Night</option><option value="aurora">Aurora</option><option value="particles">Particles</option></select></div>
+        <div class="setting"><div><strong>Animations</strong><p>Enable movement and hover transitions.</p></div><label class="switch"><input id="animations" type="checkbox"><span></span><b class="sr-only">Animations on</b></label></div>
+        <div class="setting"><div><strong>Reduced motion</strong><p>Minimize movement, including ambient effects.</p></div><label class="switch"><input id="reducedMotion" type="checkbox"><span></span><b class="sr-only">Reduced motion</b></label></div>
+        <div class="setting"><div><strong>Transparency</strong><p>Allow translucent surfaces and overlays.</p></div><label class="switch"><input id="transparency" type="checkbox"><span></span><b class="sr-only">Transparency on</b></label></div>
+        <div class="setting"><div><strong>Time display</strong><p>Choose digital, dialogue, or date display.</p></div><select id="timeStyle" aria-label="Time display"><option value="digital">Digital</option><option value="dialog">Dialogue</option><option value="date">Date</option></select></div>
+        <div class="setting"><div><strong>Time format</strong><p>Choose between 12-hour and 24-hour time.</p></div><select id="timeFormat" aria-label="Time format"><option value="12">12-hour</option><option value="24">24-hour</option></select></div>
+        <div class="settings-footer"><button id="resetSettings" class="button secondary" type="button">Reset Appearance</button><button id="doneSettings" class="button primary" type="button">Done</button></div>
     </section>
-
 </div>
-
-
 <script src="script.js"></script>
 </body>
 </html>
